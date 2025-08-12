@@ -1,0 +1,19 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+   
+    /* Adds a semi-transparent dark blue overlay on top of the background image for better text visibility */
+    background-image:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(../../assets/bkgnd.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+
+}
